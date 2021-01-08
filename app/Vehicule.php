@@ -5,7 +5,7 @@ namespace App;
 abstract class Vehicule extends Marque
 {
     public string $nom;
-    protected int $prix;
+    public int $prix;
 
     abstract public function EstPopulaire(): string;
     
